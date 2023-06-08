@@ -1,0 +1,125 @@
+.leftbarMainContainer{
+    flex: 0.7;
+    background-color: black;
+    height: 100vh;
+    
+}
+.logoName{
+    color: orange;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+.dot{
+    color: red;
+    font-weight:400;
+}
+.liListName{
+    color: #cccccc;
+    margin-left: 10px;
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+.menu{
+    color: darkgray;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+.listicons{
+    width: 20px;
+    height: 20px;
+    margin-left: -12px;
+}
+.lastimg{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: 80px;
+    margin-top: -20px;
+    
+}
+.popcorn{
+    color: darkgray;
+    margin-left: 46px;
+    margin-top: -4px;
+}
+.v-time{
+    color: #cccccc;
+    font-size: 11px;
+    margin-left: 51px;
+    margin-top: -10px;
+    position: relative;
+}
+.btn-challenges{
+    color: darkgray;
+    background-color: orange;
+    font-weight: 600;
+    margin-left: 55px;
+    color: black;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+
+}
+.leftbarlastdiv{
+    margin-left: 30px;
+    background-color: #191414;
+    margin-right: 40px;
+    border-radius: 15px;
+    padding: 2px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 764px){
+    .liListName{
+        display: none;
+        
+    }
+    li{
+        margin-top: 12px;
+
+    }
+    .leftbarlastdiv{
+        display: none;
+    }
+    .leftbarMainContainer{
+        flex: 0.2;
+        background-color: black;
+        height: 100vh;
+        
+    }
+    .logoName{
+        font-size: 13px;
+        margin-left: 4px;
+    }
+    .menu{
+        font-size: 11px;
+        margin-left: 4px;
+    }
+   
+}
+@media screen and (max-width: 1000px){
+    .lastimg{
+        margin-left: 45px;
+    }
+    .popcorn{
+        margin-left: 20px;
+    }
+    .v-time{
+        margin-left: 25px;
+    }
+    .btn-challenges{
+        position: relative;
+        left: -20px;
+    }
+    .leftbarlastdiv{
+        width: 70%;
+    }
+
+}
