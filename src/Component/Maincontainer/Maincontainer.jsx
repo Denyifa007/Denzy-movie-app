@@ -128,7 +128,7 @@ const Maincontainer = () => {
           <img src={movie5} alt=""  className='itemimg'/>
           {/* <p className='itemName'>Dungeons & Dragons</p> */}
           <a href="https://www.sabishare.com/file/DZpgLliHW92-black-adam-2022-netnaija-com-mkv" target='blank'>
-          <button className='btn-itemContainer'>Download</button>
+          <button className='btn-itemContainer'>Download Now</button>
 
           </a>
         </div>
