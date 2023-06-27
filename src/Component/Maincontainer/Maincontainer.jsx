@@ -58,8 +58,8 @@ const Maincontainer = () => {
         <div className='itemContainer'>
           <img src={BlackAdams} alt=""  className='itemimg'/>
           {/* <p className='itemName'>Fast & Furious X</p> */}
-          <a href="https://www.youtube.com/watch?v=eoOaKN4qCKw" target='blank'>
-          <button className='btn-itemContainer'>Watch Trailer</button>
+          <a href="https://www.sabishare.com/file/RvIRGUBRm09-fast-x-2023-netnaija-com-mkv" target='blank'>
+          <button className='btn-itemContainer'>Download Now</button>
 
           </a>
         </div>
